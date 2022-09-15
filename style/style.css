@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2? family = Merriweather: wght @ 900 & display = swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+.formulario{
+    background:#ece4db ;
+    padding: 30px;
+    width: 64%;
+    margin: 1% auto;
+    text-align: center;
+ }
+.input{
+    width: 200px;
+    border: 1px solid #04030F;
+    padding: 5px;  
+}
+.heaNavega h1{
+font-family: 'Acme', sans-serif;
+text-align:center;
+font-size: 3.5em;
+color:#000
+}
+.formulario label{
+  font-size: 1.3em;
+}
