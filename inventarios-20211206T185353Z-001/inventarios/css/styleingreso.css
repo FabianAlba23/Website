@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.formularioinve h2{
+	text-shadow: 1px 1px 1px #000;
+	color: #fff;
+}
+form p a{
+	text-decoration: none;
+	color: #fff;
+}
+form p a:hover{
+	color: #000;
+}
+.formularioinve{
+	background: #012A4A;
+	padding: 30px;
+	width: 30%;
+	margin: 5% auto;
+	text-align: center;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 1.3vw;
+	border: 4px solid #000;
+}
+.formularioinve label,input,select{
+	margin:10px 15px;
+}
+
+.formularioinve h2{
+	text-align: center;
+	font-size: 5vw;
+	font-family: 'Estonia', cursive;
+}
+
+.inputf{
+	padding: 3px 6px;
+}
