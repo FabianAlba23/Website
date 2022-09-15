@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Acme&display=swap');
+*{
+    margin: 0;
+}
+
+/*Etiquetas*/
+body{
+   background: #000;
+}
+header{
+    background: #a68a64;
+    display: flex;
+    align-items: flex-end;
+    
+}
+nav{
+    background: #706677;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav ul li a{
+    color:#fbaf37;
+    text-decoration: none;
+    padding: 7px 25px;
+    display: inline-block;
+    font-family: 'Acme', sans-serif;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover{
+    background:#fff;
+}
+main{
+    text-align: center;
+    background: #012A4A;
+     margin: 0 30px;
+     border: 2px solid #fff;
+} 
+
+main p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1.3em;
+    color:#fff;
+    text-shadow: 3px 3px 2px #000;
+    padding: 20px 300px;
+    text-align: justify;
+
+}
+article{
+    display: flex;
+    text-align: center;
+    background: #012A4A;
+    border: 2px solid #fff;
+    margin: 0 30px;
+}
+
+aside{
+    display: flex;
+    background:#003049;
+    text-align: center;
+}
+
+aside h2{
+    margin: 15px 0;
+}
+aside p{
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+footer{
+    text-align: center;
+    background: #000;
+    color: #fff;
+    font-family: 'Acme', sans-serif;
+}
+footer img{
+    width: 10%;
+    padding: 25px 0;
+}
+
+footer p{
+    padding: 20px 0;
+    font-size: 1.2em;
+}
+footer h2{
+    color: #fbaf37;
+    font-size: 1.3em;
+}
+
+/* clases */
+.logo{
+    width: 50%;
+}
+
+.heaNavega{
+    width: 40%;
+    text-align: right;
+    font-family: 'Acme', sans-serif;
+    font-size: .9em;
+}
+/* .heaNavega h1{
+    text-align: left;
+    font-size: 3.5em;
+    color: #FFF;
+    font-family: 'Acme', sans-serif;
+    padding: 0 40px;
+} */
+.logo img{
+    width: 30%;
+    padding: 18px;
+}
+.heaNavega a{
+    color: #fbaf37;
+    text-decoration: none;
+    padding: 0 30px;
+    font-family: 'Acme', sans-serif;
+    align-items:center;
+    font-size: 1.3em;
+}
+.heaNavega a:hover{
+    color: #fff;
+}
+
+.titulo{
+    text-align: center;
+    /* background: #000; */
+    color:#fbaf37;
+    padding: 50px 0;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.3em;
+    
+}
+
+.titulo2{
+    text-align: center;
+    background: #000;
+    color: #fbaf37;
+    padding: 50px 0;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+.titulo3{
+    text-align: center;
+    background: #000;
+    color:#fbaf37;
+    padding: 50px 0;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+.column{
+    width: 33.33%;
+    padding: 20px 15px;
+    margin: 0 35px;
+}
+.column img{
+    width: 50%;
+    border-radius: 50%;
+}
+.column h3{
+    margin: 20px 0;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.8em;
+    color:#fbaf37;
+    
+}
+.column p{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.column2{
+    text-align: center;
+    width: 33.33%;
+    padding: 15px 20px;
+    border: 2px #fbaf37;
+    border-radius: 15px;
+    margin: 20px 35px;
+    color: #fff;
+    background: #000;
+}
+.column2 h2{
+    color: #fbaf37;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.3em;
+}
+
+.column2 p{
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: .9em;
+}
+
+.column3 {
+    width: 33.33%;
+    padding: 20px 15px;
+    margin: 0 35px;
+}
+.sidep{
+    display: flex;
+    padding: 20px 10px;
+    border: 2px solid #fff;
+}
+.sidep1{
+    width: 70%;
+    background-image: url(../img/jpg/f2.jpg);
+    background-size: 100% 100%;
+    height: 400px;
+
+}
+.sidep2{
+    padding: 50px 0;
+    text-align: center;
+    width: 30%;
+   color: white;
+   font-size: 1.3em;
+}
+.sidep2 p{
+    padding: 0 10px;
+    text-align: justify;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 0.8em;
+}
+.sidep2 h3{
+    color: #fbaf37;
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.1em;
+}

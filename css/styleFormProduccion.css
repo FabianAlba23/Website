@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+form{
+    background:#e2eafc;
+    padding: 40px;
+    width: 80%;
+    margin: 5% auto;
+    text-align:center;
+}
+form table{
+    margin: 1% auto;
+    text-align: center;
+}
+.input{
+    width: 200px;
+    border: 1px solid #04030F;
+    padding: 5px;  
+    text-align: center;
+}
+.heaNavega h1{
+text-align:center;
+font-size: 3.5em;
+color:#312244
+}
+.heaNavega{
+font-family:'Abril Fatface',cursive;
+}

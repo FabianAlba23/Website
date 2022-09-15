@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+table{
+	margin: 5% auto;
+}
+
+table caption{
+	font-size: 1.7em;
+	font-family: 'Bebas Neue', cursive;
+}
+
+table th{
+	font-size: 1.4em;
+	padding: 4px 30px;
+	color: #1d3557;
+	background: #ffb3c1;
+}
+
+table td{
+	text-align: center;
+	font-family: 'Readex Pro', sans-serif;
+	font-size: 1.2em;
+	padding: 3px 30px;
+}
+
+table, th, tr, td{
+	border: 1px solid #000;
+	border-collapse: collapse;
+}

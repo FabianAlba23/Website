@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+*{
+	margin: 0;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.formularioinve{
+	background: #012A4A;
+	padding: 30px;
+	width: 75%;
+	margin: 5% auto;
+	text-align: center;
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 1.4vw;
+	color: #fff;
+	align-items: center;
+}
+.formularioinve input{
+	margin-right:10px;
+}
+
+.formularioinve h2{
+	text-align: center;
+	font-size: 5vw;
+}
+
+.inputf{
+	padding: 0px 6px;
+}
